@@ -27,7 +27,8 @@ gems:               [jekyll-sitemap]
 
 # Social media
 twitter_username: iNicklasLarsen
-youtube_username:
+youtube_username: https://www.youtube.com/channel/UCpIZlLB9P3YFvEdKRc-2JQw
+facebook_username: iNicklasLarsen
 
 compress_html:
     clippings:      all
