@@ -1,21 +1,52 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Site Info
+title:              "Nicklas Larsen"
+description:        "This is the personal blog of Nicklas Larsen"
+google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
+google_analytics:   UA-79601385-1 # Put your Google Analytics code
 
-# Site settings
-title: Nicklas Larsen
-email: contact@nila.io
-description: > # this means to ignore newlines until "baseurl:"
-  My name is Nicklas. I am an aspiring writer, content creator, and caster
-  for Overwatch. Most of the content hosted on this site will be Overwatch related
-  althought I do not want to restrict myself solely to that.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.nila.io" # the base hostname & protocol for your site
+# Site Settings
+baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
+permalink:          /:title # Post permalink
+timezone:           Europe/Copenhagen # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Site Build
+highlighter:        rouge
+#markdown:           redcarpet
+#redcarpet:
+#    extensions:     ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "highlight", "footnotes"]
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+gems:               [jekyll-sitemap]
+
+# Social media
 twitter_username: iNicklasLarsen
-youtube_username: https://www.youtube.com/channel/UCpIZlLB9P3YFvEdKRc-2JQw
+youtube_username:
 
-# Build settings
-markdown: kramdown
+compress_html:
+    clippings:      all
+    ingore:
+        envs:       [ "test" ]
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"

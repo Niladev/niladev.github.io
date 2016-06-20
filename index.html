@@ -2,23 +2,21 @@
 layout: default
 ---
 
-<div style="border:none;" class="articles-container">
-    <div style="height:350px;border:none; padding-top:15px;" class="latest-articles col-sm-12">
-        <div style="height:90%;" class="col-sm-6">
+<section>
+	<ul>
 
-        </div>
-        <div style="height:90%; border:none;padding-right:0;" class="col-sm-6">
-            <div style="height:52.5%; margin-bottom:8px;" class="col-sm-12">
+		{% for post in site.posts %}
 
-            </div>
-            <div style="height:45%;border:none; padding:0;display:flex;" class="col-sm-12">
-                <div style="height:100%;flex-grow:1;margin-right:8px;" class="">
+		<li>
+			<div class="post-date">
+				<span>{{ post.date | date: "%b %d, %Y" }}</span>
+			</div>
+			<div class="title">
+				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</div>
+		</li>
 
-                </div>
-                <div style="height:100%;flex-grow:1;" class="">
+		{% endfor %}
 
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+	</ul>
+</section>

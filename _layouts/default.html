@@ -1,18 +1,31 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
 <html lang="en">
 
-  {% include head.html %}
+	<head>
+		{% include head.html %}
+	</head>
 
-  <body>
-      {% include navigation.html %}
+	<body>
 
-      <div id="content" class="container">
-          {{ content }}
-      </div>
+		{% include header.html %}
 
+		<main>
+			{{ content | replace: '&#8617;', '&#8617;&#xfe0e;' }}
+		</main>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
-  </body>
+		{% if page.path contains '_posts' %}
+
+			{% if content contains 'reversefootnote' %}
+				<aside class="note"></aside>
+				<script async src="{{site.baseurl}}/assets/footnotes.js"></script>
+			{% endif %}
+
+		{% endif %}
+
+	</body>
 
 </html>
