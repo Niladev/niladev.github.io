@@ -25,6 +25,13 @@ layout: default
 
 </article>
 
-<div class="back">
-	<a href="{{site.baseurl}}/">Back</a>
+<div class="post-navigation clearfix">
+    <div class="back">
+    	<a href="{{site.baseurl}}/">Back</a>
+    </div>
+    {% if page.next.url %}
+    <div class="next">
+        <a href="{{page.next.url}}">{{page.next.title}}</a>
+    </div>
+    {% endif %}
 </div>

@@ -108,6 +108,22 @@ span[data-note] {
   }
 }
 
+.post-category {
+    font-size:11px;
+    text-transform: uppercase;
+    color:#F2B84B;
+}
+
+.category-league {
+    background-image:    url("/assets/categories/league.png");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    height:15px;
+    width:15px;
+    vertical-align: middle;
+}
+
 .id {
     margin:-10px auto 50px;
     text-align:center;
@@ -115,6 +131,10 @@ span[data-note] {
     .social-media {
         margin-top:-10px;
         color: #aaa;
+
+        & a:hover {
+            color:#F2B84B;
+        }
 
         a {
             border:none;
@@ -143,7 +163,7 @@ span[data-note] {
     box-sizing: border-box;
     &:hover,
     &:focus {
-      background: #f14e32;
+      background: #F2B84B;
     }
     &:hover + .logo-prompt,
     &:focus + .logo-prompt {
@@ -305,8 +325,25 @@ article {
     }
   }
 }
+
+.post-navigation {
+    clear:both;
+    margin:0 auto;
+    max-width:750px;
+    padding-bottom:30px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
 .back {
-  text-align: center;
+    float:left;
   a {
     text-decoration: none;
     margin: 40px auto 0;
@@ -315,6 +352,21 @@ article {
     border: 0;
     &:before {
       content: "<<";
+      margin-right: 5px;
+      color: #000;
+    }
+  }
+}
+.next {
+    float:right;
+  a {
+    text-decoration: none;
+    margin: 40px auto 0;
+    display: inline-block;
+    padding: 10px;
+    border: 0;
+    &:after {
+      content: " >>";
       margin-right: 5px;
       color: #000;
     }
