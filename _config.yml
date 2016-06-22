@@ -1,10 +1,13 @@
 # Site Info
-title:              "Nicklas Larsen"
-description:        "This is the personal blog of Nicklas Larsen"
+title:              "Nicklas Larsen - Esports blogger"
+description:        "Contains articles about overwatch and other esports in general. Articles are written and curated by Nicklas Larsen."
+author:             "Nicklas Larsen"
 google_analytics:   UA-79601385-1 # Put your Google Analytics code
+logo:               /assets/favicon.png
 
 # Site Settings
 baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
+url:                "http://nila.io"
 permalink:          /:title # Post permalink
 timezone:           Europe/Copenhagen # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -22,9 +25,15 @@ sass:
 # Other Params
 include:            [ "robots.txt" ]
 exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
-gems:               [jekyll-sitemap]
+gems:               [jekyll-sitemap, jekyll-seo-tag]
 
 # Social media
+twitter:
+    username: iNicklasLarsen
+facebook:
+    app_id: 283219398693979
+    publisher: 300541510288649
+    admins: 1609051390
 twitter_username: iNicklasLarsen
 youtube_username: https://www.youtube.com/channel/UCpIZlLB9P3YFvEdKRc-2JQw
 facebook_username: iNicklasLarsen
