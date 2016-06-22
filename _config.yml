@@ -2,6 +2,7 @@
 title:              "Nicklas Larsen - Esports blogger"
 description:        "Contains articles about overwatch and other esports in general. Articles are written and curated by Nicklas Larsen."
 author:             "Nicklas Larsen"
+author_email:       "nicklas@nila.io"
 google_analytics:   UA-79601385-1 # Put your Google Analytics code
 logo:               /assets/favicon.png
 

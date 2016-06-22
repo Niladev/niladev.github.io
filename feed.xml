@@ -13,7 +13,7 @@
   <icon>{{ site.baseurl }}/assets/favicon.png</icon>
 
   <author>
-    <name>{{ site.author_name | xml_escape }}</name>
+    <name>{{ site.author | xml_escape }}</name>
     <email>{{ site.author_email | xml_escape }}</email>
     <uri>https://twitter.com/{{ site.twitter_username }}</uri>
   </author>
