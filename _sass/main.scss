@@ -108,20 +108,24 @@ span[data-note] {
   }
 }
 
-.post-category {
-    font-size:11px;
-    text-transform: uppercase;
-    color:#F2B84B;
-}
+.share {
+    margin:0 auto;
+    max-width:750px;
 
-.category-league {
-    background-image:    url("/assets/categories/league.png");
-    background-size:     cover;                      /* <------ */
-    background-repeat:   no-repeat;
-    background-position: center center;
-    height:15px;
-    width:15px;
-    vertical-align: middle;
+    h3 {
+        margin:0;
+    }
+
+    a {
+        &:hover {
+            color:#F2B84B;
+            cursor: pointer;
+        }
+
+        margin-top:0;
+        color:#aaa;
+        border:none;
+    }
 }
 
 .id {
