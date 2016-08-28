@@ -1,6 +1,7 @@
 ---
 title: An Amazing Adventure - A Short Story
 image: /assets/images/amazing-adventure.jpeg
+category: short story
 ---
 
 ![An amazing adventure](/assets/images/amazing-adventure.jpeg)

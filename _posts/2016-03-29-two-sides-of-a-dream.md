@@ -1,6 +1,7 @@
 ---
 title: Two Sides Of A Dream
 image: /assets/images/two-sides.jpeg
+category: blog
 ---
 
 ![Two sides of a dream](/assets/images/two-sides.jpeg)

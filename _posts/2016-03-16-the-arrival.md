@@ -1,6 +1,7 @@
 ---
 title: The Arrival
 image: /assets/images/the-arrival.jpeg
+category: short story
 ---
 
 ![The Arrival](/assets/images/the-arrival.jpeg)

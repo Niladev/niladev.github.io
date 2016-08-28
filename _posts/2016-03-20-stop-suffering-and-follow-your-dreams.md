@@ -1,6 +1,7 @@
 ---
 title: Stop Suffering And Follow Your Dreams
 image: /assets/images/stop-suffering.jpeg
+category: blog
 ---
 
 ![Stop suffering and move towards your dreams](/assets/images/stop-suffering.jpeg)

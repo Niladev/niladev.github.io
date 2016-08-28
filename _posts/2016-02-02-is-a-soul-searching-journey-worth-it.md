@@ -1,6 +1,7 @@
 ---
 title: Is A Soul Searching Journey Worth It?
 image: /assets/images/soul-searching.jpeg
+category: blog
 ---
 
 ![Is a soul searching journey worth it](/assets/images/soul-searching.jpeg)
