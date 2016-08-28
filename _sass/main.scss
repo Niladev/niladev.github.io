@@ -108,7 +108,35 @@ span[data-note] {
   }
 }
 
+.quote {
+    font-size: 22px;
+    font-style:italic;
+    font-weight:300;
+    margin:30px 15px 0px 30px;
+}
+
+.quote-author {
+    margin:0px 15px 30px 30px;
+    font-size:18px;
+    font-weight:300;
+}
+
+.portrait {
+    max-width:30%;
+    width:30%;
+    margin: 10px 15px 0px 0px;
+
+    &.left {
+        float:left;
+    }
+
+    &.right {
+        float:right;
+    }
+}
+
 .share {
+    clear:both;
     margin:0 auto;
     max-width:$page-width;
 
