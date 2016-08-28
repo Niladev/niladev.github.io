@@ -3,15 +3,20 @@ layout: page
 title: About
 ---
 
-My name is Nicklas Larsen, also known as Ququ, and I'm a budding content creator and creative writer.
+My name is Nicklas Larsen.
 
-Ever since I was first exposed to it I've had an interest in esports and with the recent release of Overwatch I decided that time had come to fulfill the dream of becoming involved with esports content creation.
+I'm a 25 year old software developer, content creator and wantrepreneur.
+This site is my creative outlet where you'll be able to explore ramblings,
+short stories, longer stories, blog posts and the like.
 
-With this site, I want to focus on creating content that leaves you, the reader, more informed than you were before you arrived. To accomplish this, articles published here will mainly cover news, teams, tournaments and the game itself.
-What you won't find here are fluff pieces, jokes, satire or the like, not because I don't enjoy that type of content but because I acknowledge that I am terrible at generating it so I'd rather leave it up to people better than me.
+Throughout my life I have dabbled with many different industries and areas trying
+to find my path but the one thing that has always been persistent is writing.
+As such I felt that time had come to establish a place where this writing could
+live and breathe. Evolve into something more.
 
-You can follow me on various social media to receive notifications on my latest articles as well as on Youtube where I will try to publish bigger articles in video format as well as other video content.
+It is my hope that you will join me on this new journey and enjoy it every bit as much
+as I do. I will be working hard to give you a reason to keep on following me
+and would love to hear your ideas, suggestions or simply chat.
 
-I thank you for taking the time to visit and hope you'll find the content enjoyable!
 
-\-Nicklas "Ququ" Larsen
+\-Nicklas Larsen
