@@ -1,26 +1,11 @@
-<aside class="logo">
-
-	{% if page.url == '/index.html' or page.url == '/' %}
-		{% assign link = '/about' %}
-		{% assign prompt = 'About the Author' %}
-	{% else %}
-		{% assign link = '/' %}
-		{% assign prompt = 'Back to Home' %}
-	{% endif %}
-
-	<a href="{{ link | prepend: site.baseurl }}">
-		<img src="/assets/portrait.png" class="gravatar">
-	</a>
-	<span class="logo-prompt">{{ prompt }}</span>
-</aside>
-
-<div class="id">
-    <p>
-        Nicklas Larsen
-    </p>
-    <div class="social-media">
-        <a style="margin-right:8px;" href="https://twitter.com/{{site.twitter_username}}" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
-        <a style="margin-right:8px;" href="https://facebook.com/{{site.facebook_username}}" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
-        <a href="mailto:blog@nila.io"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
-    </div>
+<div class="navigation">
+	<div class="brand">
+		{% include logo.html %}
+	</div>
+	<ul style="" class="nav-menu">
+		<li class="active"><a href="#">work</a></li>
+		<li><a href="#">blog</a></li>
+		<li><a href="#">about</a></li>
+		<li><a href="#">contact</a></li>
+	</ul>
 </div>

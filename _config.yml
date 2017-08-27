@@ -1,8 +1,8 @@
 # Site Info
-title:              "Nicklas Larsen - Content creator"
-description:        "The personal blog for budding author Nicklas Larsen. Contains fiction, life blog, and advice."
+title:              "Nicklas Larsen - Web developer"
+description:        "Portfolio site"
 author:             "Nicklas Larsen"
-author_email:       "blog@nila.io"
+author_email:       "contact@nila.io"
 google_analytics:   UA-79601385-1 # Put your Google Analytics code
 logo:               /assets/favicon.png
 
@@ -26,7 +26,7 @@ sass:
 # Other Params
 include:            [ "robots.txt" ]
 exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
-gems:               [jekyll-sitemap, jekyll-seo-tag]
+plugins:               [jekyll-sitemap, jekyll-seo-tag]
 
 # Social media
 twitter:
@@ -36,7 +36,6 @@ facebook:
     publisher: 300541510288649
     admins: 1609051390
 twitter_username: iNicklasLarsen
-youtube_username: https://www.youtube.com/channel/UCpIZlLB9P3YFvEdKRc-2JQw
 facebook_username: iNicklasLarsen
 
 compress_html:
